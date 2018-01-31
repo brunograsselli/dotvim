@@ -22,6 +22,8 @@ set mouse=a
 
 set autoindent
 
+set wildmode=list:longest
+
 nnoremap Y y$
 nmap <Tab> gt
 nmap <S-Tab> gT
