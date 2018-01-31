@@ -1,10 +1,11 @@
+set nocompatible
+
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-surround'
 Plug 'fatih/vim-go'
-Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
@@ -23,7 +24,4 @@ nmap <S-Tab> gT
 cmap <C-e> <C-r>=expand('%:p:h')<CR>/
 nmap <leader>] :noh<Enter>
 
-let g:solarized_termcolors=256
-syntax enable
-set background=dark
-colorscheme solarized
+colorscheme tomorrow-night
