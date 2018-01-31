@@ -1,31 +1,27 @@
 # vim configuration
 
+I decided to reconfigure my vim from the scratch. The old configuration can be found at https://github.com/brunograsselli/vim-files
+
 ## Setup
 
 Install vim
 
 ```shell
-sudo dnf install vim
+sudo dnf install vim # or brew install macvim
 ```
 
 Clone this repository
-```
+```shell
 git clone git@github.com:brunograsselli/dotvim.git ~/.vim
 ```
 
 Create a symlink to .vimrc
-```
+```shell
 ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
-Install Plug
-```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
-Install dependencies (inside vim)
-```
+Open vim and install dependencies
+```shell
 :PlugInstall
 :GoInstallBinaries
 ```
