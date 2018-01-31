@@ -23,7 +23,7 @@ nmap <S-Tab> gT
 cmap <C-e> <C-r>=expand('%:p:h')<CR>/
 nmap <leader>] :noh<Enter>
 
+let g:solarized_termcolors=256
 syntax enable
 set background=dark
 colorscheme solarized
-let g:solarized_termcolors=256
