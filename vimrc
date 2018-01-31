@@ -2,7 +2,7 @@
 set nocompatible
 
 " install plugins
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin('~/.vim/plugged')
 
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-ruby/vim-ruby'

@@ -1,26 +1,21 @@
-# Neovim configurations
+# vim configuration
 
 ## Setup
 
-### Install Neovim
+### Install vim
 
 ```shell
-cd ~/apps
-curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
-chmod u+x nvim.appimage
-ln -s ~/apps/nvim.appimage ~/bin/vim
+sudo dnf install vim
 ```
-
-Or refer to https://github.com/neovim/neovim/wiki/Installing-Neovim
 
 ### Clone this repository
 ```
-git clone git@github.com:brunograsselli/nvim-config.git ~/.config/nvim
+git clone git@github.com:brunograsselli/dotvim.git ~/.vim
 ```
 
 ### Install Plug
 ```
-curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
