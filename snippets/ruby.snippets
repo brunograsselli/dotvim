@@ -7,3 +7,29 @@ snippet w
 # attr_accessor
 snippet rw
 	attr_accessor :${1:attr_names}
+snippet desc
+	require "spec_helper"
+
+	RSpec.describe ${1:`substitute(substitute(substitute(Filename(),'\(.*\)_spec','\1',''), '_\(\w\)', '\U\1', 'g'), '^\(.\)', '\U\1', '')`} do
+	  ${2}
+	end
+snippet des
+	describe "${1}" do
+	  ${2}
+	end
+snippet cont
+	context "${1}" do
+	  ${2}
+	end
+snippet it
+	it "${1}" do
+	  ${2}
+	end
+snippet bef
+	before do
+	  ${1}
+	end
+snippet aft
+	after do
+	  ${1}
+	end
