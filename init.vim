@@ -36,6 +36,7 @@ nmap <Tab> gt
 nmap <S-Tab> gT
 cmap <C-e> <C-r>=expand('%:p:h')<CR>/
 nmap <leader>] :noh<Enter>
+vmap <Tab> gc
 
 " colors
 colorscheme tomorrow-night
