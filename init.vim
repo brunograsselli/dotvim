@@ -9,6 +9,7 @@ Plug 'fatih/vim-go'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
