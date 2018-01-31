@@ -1,6 +1,6 @@
 # vim configuration
 
-I decided to reconfigure my vim from the scratch. The old configuration can be found at https://github.com/brunograsselli/vim-files
+I decided to reconfigure my vim from scratch. The old configuration can be found [here](https://github.com/brunograsselli/vim-files)
 
 ## Setup
 
