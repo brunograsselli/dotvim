@@ -13,6 +13,7 @@ Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'tpope/vim-commentary'
 Plug 'google/vim-searchindex'
+Plug 'ervandew/supertab'
 
 call plug#end()
 
