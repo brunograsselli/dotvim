@@ -14,6 +14,7 @@ Plug 'garbas/vim-snipmate'
 Plug 'tpope/vim-commentary'
 Plug 'google/vim-searchindex'
 Plug 'ervandew/supertab'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
@@ -39,4 +40,6 @@ nmap <leader>] :noh<Enter>
 vmap <Tab> gc
 
 " colors
-colorscheme tomorrow-night
+syntax enable
+set background=dark
+colorscheme solarized
