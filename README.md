@@ -24,9 +24,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-Install dependencies
-
-Inside vim do:
+Install dependencies (inside vim)
 ```
 :PlugInstall
 :GoInstallBinaries
