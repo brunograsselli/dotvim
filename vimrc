@@ -30,6 +30,15 @@ set mouse=a
 set autoindent
 " list options in command mode
 set wildmode=list:longest
+" always display statusline
+set laststatus=2
+
+" statusline
+set statusline=%f       "path to the file
+set statusline+=%=      "left/right separator
+set statusline+=\ %y      "filetype
+set statusline+=\ %c,   "cursor column
+set statusline+=%l/%L   "cursor line/total lines
 
 " mappings
 nnoremap Y y$
