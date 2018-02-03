@@ -1,2 +1,12 @@
 snippet p
 	fmt.Println(${1})
+snippet f
+	fmt.Printf("${1}", ${2})
+snippet ife
+	if err != nil {
+		${1}
+	}
+snippet types
+	type ${1} struct{
+		${2}
+	}
