@@ -32,6 +32,10 @@ set autoindent
 set wildmode=list:longest
 " always display statusline
 set laststatus=2
+" highlight search
+set hlsearch
+" highlight search incrementally whily typing
+set incsearch
 
 " statusline
 set statusline=%f       "path to the file
