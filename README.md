@@ -1,4 +1,4 @@
-# vim configuration
+# Vim configuration
 
 I decided to reconfigure my vim from scratch. The old configuration can be found [here](https://github.com/brunograsselli/vim-files).
 
