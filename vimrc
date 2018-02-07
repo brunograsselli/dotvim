@@ -18,7 +18,6 @@ Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
-" configs
-
+" load settings
 runtime settings/options.vim
 runtime settings/mappings.vim
