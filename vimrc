@@ -15,6 +15,7 @@ Plug 'tpope/vim-commentary'
 Plug 'google/vim-searchindex'
 Plug 'ervandew/supertab'
 Plug 'altercation/vim-colors-solarized'
+Plug 'chemzqm/vim-jsx-improve'
 
 call plug#end()
 
