@@ -1,2 +1,2 @@
-" enable jsx syntax and ident for js files
+" enable jsx syntax and indent for js files
 let g:jsx_ext_required = 0
