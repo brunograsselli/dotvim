@@ -15,9 +15,11 @@ Plug 'tpope/vim-commentary'
 Plug 'google/vim-searchindex'
 Plug 'ervandew/supertab'
 Plug 'altercation/vim-colors-solarized'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
 " load settings
 runtime settings/options.vim
 runtime settings/mappings.vim
+runtime settings/plugins.vim
