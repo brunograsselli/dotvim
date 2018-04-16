@@ -18,6 +18,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'mxw/vim-jsx'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'joukevandermaas/vim-ember-hbs'
 
 call plug#end()
 
