@@ -22,6 +22,13 @@ Plug 'joukevandermaas/vim-ember-hbs'
 
 call plug#end()
 
+"load ftplugins and indent files
+filetype plugin on
+filetype indent on
+
+"turn on syntax highlighting
+syntax on
+
 " load settings
 runtime settings/options.vim
 runtime settings/mappings.vim
