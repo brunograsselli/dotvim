@@ -1,3 +1,5 @@
+let mapleader = ","
+
 nnoremap Y y$
 nmap <Tab> gt
 nmap <S-Tab> gT
@@ -10,3 +12,5 @@ let g:go_fmt_command = "goimports"
 autocmd FileType go nmap <leader>b <Plug>(go-build)
 autocmd FileType go nmap <leader>i <Plug>(go-imports)
 autocmd FileType go nmap <leader>tc <Plug>(go-test-compile)
+autocmd FileType go nmap <leader>d <Plug>(go-doc)
+autocmd FileType go nmap <leader>r <Plug>(go-run)
