@@ -31,3 +31,5 @@ set statusline+=%=      "left/right separator
 set statusline+=\ %y    "filetype
 set statusline+=\ %c,   "cursor column
 set statusline+=%l/%L   "cursor line/total lines
+
+set backspace=indent,eol,start
