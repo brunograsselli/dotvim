@@ -10,3 +10,20 @@ snippet types
 	type ${1} struct {
 		${2}
 	}
+snippet ttable
+	func Test${1}(t *testing.T) {
+		tests := []struct {
+			desc        string
+			expectedErr error
+		}{
+			{
+				desc: "${2}",
+			},
+		}
+	
+		for _, tt := range tests {
+			t.Run(tt.desc, func(t *testing.T) {
+				${3}
+			})
+		}
+	}
