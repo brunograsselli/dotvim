@@ -7,7 +7,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-surround'
-Plug 'fatih/vim-go'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
@@ -19,6 +18,7 @@ Plug 'mxw/vim-jsx'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
