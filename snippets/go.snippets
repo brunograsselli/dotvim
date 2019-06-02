@@ -1,12 +1,14 @@
 snippet p
 	fmt.Println(${1})
 snippet f
-	fmt.Printf("${1}", ${2})
+	fmt.Printf("${1}\n", ${2})
 snippet ife
 	if err != nil {
 		${1}
 	}
-snippet types
+snippet w
+	errors.Wrap(err, "${1}")
+snippet s
 	type ${1} struct {
 		${2}
 	}
