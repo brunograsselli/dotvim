@@ -7,6 +7,7 @@ cmap <C-e> <C-r>=expand('%:p:h')<CR>/
 nmap <leader>m :noh<Enter>
 vmap <Tab> gc
 nmap <leader>tb :TagbarToggle<CR>
+nmap <leader>v "+P
 
 "vim-go
 let g:go_fmt_command = "goimports"
