@@ -5,7 +5,7 @@
 Install vim:
 
 ```shell
-sudo dnf install vim # or brew install macvim
+sudo dnf install vim # or brew install vim
 ```
 
 Clone this repository:
