@@ -14,6 +14,7 @@ autocmd FileType go nmap <leader>b <Plug>(go-build)
 autocmd FileType go nmap <leader>tc <Plug>(go-test-compile)
 autocmd FileType go nmap <leader>tt <Plug>(go-test)
 autocmd FileType go nmap <leader>tf <Plug>(go-test-func)
+autocmd FileType go nmap <leader>ti :GoBuildTags integration<CR>
 autocmd FileType go nmap <leader>d <Plug>(go-doc)
 autocmd FileType go nmap <leader>a <Plug>(go-alternate-vertical)
 autocmd FileType go nmap <leader>db :GoDebugBreakpoint<CR>
