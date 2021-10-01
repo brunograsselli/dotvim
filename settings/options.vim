@@ -45,3 +45,5 @@ augroup myCmds
 au!
 autocmd VimEnter * silent !echo -ne "\e[2 q"
 augroup END
+
+let g:snipMate = { 'snippet_version' : 1 }
